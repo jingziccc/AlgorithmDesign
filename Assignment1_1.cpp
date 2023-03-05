@@ -36,7 +36,7 @@ bool input_check(int &steps, int &calories)
         cout << "Input error" << endl;
         exit(-1);
     }
-    if (steps >= calories)
+    if (steps <= calories)
         return true;
     else
     {
